@@ -1,0 +1,159 @@
+.text-center{
+    text-align: center;
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 20vh;
+    // width: 100%;   
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    &-desktop{
+        background-color: rgb(255, 255, 255);
+        height:10vh;
+        // width: 100%;
+        
+        
+    }
+    &-deskbox{
+        // width: 100%;
+        height: 10vh;
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        padding:0px 40px ;
+        box-sizing: border-box;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    &-desklogos{
+        height: 59px;
+        cursor: pointer;
+    }
+    &-desklogo{
+        height: 40px;
+        cursor: pointer;
+    }
+    &-desklocation{
+        background-color:#eeeeee;
+        width: 150px ;
+        height: 40px;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+        margin-right: 40px;
+        border-radius:100px;
+
+    }
+    &-locationimage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+    }
+    &-searchbox{
+        // width: 500px;
+        height: 32px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+
+
+
+        background-color:rgb(239, 239, 239);
+    }
+    &-searchbar{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+
+    
+
+    }
+    &-inputsearch{
+        border: none;
+        letter-spacing: 0.3px;
+        background-color: #f0f0f0;
+        outline: none;
+        cursor:auto;
+        width: 100%;
+    border-radius: 50px; 
+    }
+    &-searchimgs{
+        width: 22px;
+        height: 22px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+
+    }
+    &-searchimg{
+        width: 22px;
+        height: 22px;
+        border-radius: 100px;
+        cursor: pointer;
+
+
+    }
+    &-deskcart{
+        display: flex;
+        align-items: center;
+        width: 105px;
+        background-color: #ffffff;
+        border-radius: 30px;
+        height: 40px;
+        margin-left: 10px;
+        justify-content: center;
+        gap: 5px;
+        cursor: pointer;
+
+    }
+    &-deskcart:hover{
+        background-color: rgb(185, 167, 167);
+        font-size: 19px;
+
+    }
+    &-deskcartfont{
+        font-weight: 400px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    &-deskimage{
+        width: 25px;
+        height: 25px;
+    }
+    &-desklanguage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        width: 105px;
+        background-color: #ffffff;
+        height: 40px;
+        border-radius: 30px;
+        gap: 5px;
+        cursor: pointer;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+    }
+    &-desklanguage:hover{
+        background-color: rgb(185, 167, 167);
+        font-size: 19px;
+
+    }
+    &-lanimg{
+        height: 25px;
+        width: 25px;
+
+    }
+}
+body{
+    margin: 0px;
+    background-color: rgb(188, 199, 208);
+}

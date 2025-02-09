@@ -7,8 +7,14 @@ import cart from "../assets/cart.png";
 import user from "../assets/user.png";
 import lan from "../assets/lan.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import lucky from "../assets/lucky.png"
-import { IoLocationOutline } from "react-icons/io5";
+import lucky from "../assets/lucky.png";
+import { BsSearch } from "react-icons/bs";
+import { ImParagraphRight } from "react-icons/im";
+import { LuScale } from "react-icons/lu";
+import { BsBag } from "react-icons/bs";
+import { HiOutlineUser } from "react-icons/hi2";
+import { MdOutlineSell } from "react-icons/md";
+import { IoCallOutline } from "react-icons/io5";
 
 const Header = () => {
   return (
@@ -18,76 +24,53 @@ const Header = () => {
           <img src={lucky} className="header-desklogos" />
         </div>
 
-        <div className="header-desklocation text-center">
-          <div className="header-locationimage">
-            <IoLocationOutline size={20} />
-            <div> vythiri,wayanad </div>
-          </div>
+        <div className="header-rate ">
+          <div className="textrate1"> LIVE RATE</div>
+          <div className="textrate2">TODAY'S PRICE</div>
         </div>
 
-        <div className="header-searchbox d-flex flex-md-column  flex-sm-column flex-xs-column col-3 col-sm-3 col-md-6 col-lg-6 col-xl-4">
+        <div className="header-searchbox">
           <div className="header-searchbar ">
-            <div className="header-searchimgs">
-              <img className="header-searchimg" src={searchbar} />
-            </div>
+            <BsSearch />
             <input
               className="header-inputsearch "
-              placeholder="Search gifts and flowers..."
+              placeholder="Search ..."
             ></input>
           </div>
         </div>
-        <div className="header-deskcart">
-          <div className="header-deskcartfont">Cart</div>
-          <div className="header-deskimage">
-            <img src={cart} className="header-deskimage" />
-          </div>
+        <div className="header-digital">
+          <div className="header-digitaltext">Digital Gold</div>
+          <ImParagraphRight />
         </div>
-        <div className="header-deskcart">
-          <div className="header-deskcartfont">Sign in</div>
-          <div className="header-deskimage">
-            <img src={user} className="header-deskimage" />
-          </div>
+        <div className="header-digital">
+          <div className="header-digitaltext">LSG Auction</div>
+          <LuScale />
         </div>
 
-        <div className="header-desklanguage">
-          <div className="header-language">En</div>
-          <img src={lan} className="header-lanimg " />
+        <div className="header-cartimage">
+          <BsBag size={25} />
+          <HiOutlineUser size={27} />
         </div>
       </div>
-      {/* <div className="header-deskcategory"></div> */}
 
+      <div className="header-categories">
+        <div className="header-categorytext">ZERO % MAKING</div>
+        <div className="header-categorytext">GOLD JWELLARY</div>
+        <div className="header-categorytext">DIAMOND JEWELLARY</div>
+        <div className="header-categorytext">LSG COLLECTION</div>
+        <div className="header-categorytext">COINS & BARS</div>
+        <div className="header-sell">
+          <div  className="header-sellhead">
+            <MdOutlineSell size={20} />
+            <div className="header-selltext">Sell To US</div>
+          </div>
 
-      <div className="background">
-
-
-
-
-
-
-
-
-        
-         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <div className="header-sellhead">
+            <IoCallOutline size={20} />
+            <div className="header-selltext">+971 54 581 6161</div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

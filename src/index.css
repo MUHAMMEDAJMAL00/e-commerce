@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "NanumMyeongjo-Regular";
+    src: url("./assets/fonts/NanumMyeongjo-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "NanumMyeongjo-ExtraBold";
+    src: url("./assets/fonts/NanumMyeongjo-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "NanumMyeongjo-Bold";
+    src: url("./assets/fonts/NanumMyeongjo-Bold.ttf") format("truetype");
+}

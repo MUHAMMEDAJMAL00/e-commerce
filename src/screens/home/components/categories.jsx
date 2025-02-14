@@ -1,12 +1,14 @@
 import React from "react";
+import { GiArrowScope } from "react-icons/gi";
 import Slider from "react-slick";
 
 function  Categories() {
   const settings = {
     infinite: true,
     speed: 900,
-    slidesToShow:8,
-    slidesToScroll: 3
+    slidesToShow:11,
+    slidesToScroll:3,
+    arrows:false
   };
 
 

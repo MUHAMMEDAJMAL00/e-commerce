@@ -1,31 +1,32 @@
-
-
-
 .custom-banner {
     height: 400px;
-    width: 100% !important;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: end;
 }
-.custom-headings{
+
+.custom-headings {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 79px;
-    height:300px;
+    height: 300px;
 
 }
-
-.custom-title{
+body{
+    background-color: #ffffff;
+}
+.custom-title {
     font-size: 40px;
     margin-top: 20px;
 
 
 }
-.custom-description{
+
+.custom-description {
     height: 20px;
     font-size: 15px;
     font-weight: 600;
@@ -35,44 +36,285 @@
 
 
 
-.slider-container{
+.slider-container {
     overflow: hidden;
-    height: 50vh;
-    background-color:#ffffff;
-    padding: 20px 0px 20px 70px;
+    height: 25vh;
+    background-color: #ffffff;
+    padding: 20px 70px 20px 70px;
     width: 100%;
+
 
 
 }
 
-.slidder{
+.slidder {
     margin-top: 5px;
 
 
 }
-.slider-title{
+
+.slider-title {
     font-size: 15px;
     font-weight: 600;
-    white-space:nowrap;
+    white-space: nowrap;
     overflow: hidden;
-    width:120px;
+    width: 118px;
     text-align: center;
-    
-    margin-top:5px;
-    
+
+    margin-top: 5px;
+
 
 }
 
-.cat1{
+.cat1 {
     height: 92px;
-    border-radius:50px;
-  
+    border-radius: 50px;
+
 }
-.cat2{
+
+.cat2 {
     padding: 3px;
-    border:1px solid #ffe6c9;
+    border: 1px solid #ffe6c9;
     border-radius: 50px;
     width: 100px;
     height: 100px;
 
+}
+
+.gold-head {
+    background-color: #ffffff;
+    height: 30vh;
+    text-align: center;
+    padding-top: 30px;
+    // padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.gold-title {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gold-date {
+    font-size: 17px;
+    font-weight: 600;
+    // font-family:"DMSans-SemiBold";
+    // margin-top: 20px;
+}
+
+.goldbox {
+
+    color: #2a5e47;
+    border: 1px solid #131514;
+    margin-top: 10px;
+    //    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //   font-family: "DMSans-SemiBold";
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.goldbox1 {
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+.sections{
+    height: 50vh;
+    background-color:#ffffff;
+    // padding: 0px 66px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    // padding: 20px 0px 20px 0px;
+
+    padding: 20px 30px 20px 30px;
+
+
+}
+.golds{
+    display: flex;
+    color: #ffffff;
+    // width: 100%;
+  
+    padding: 10px 48px 20px 48px;
+}
+.section1{
+    border-radius: 4px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 300px;
+    
+    background-size:cover;
+    width:100%;
+    // overflow: hidden;
+    // position: relative;
+    
+    margin-bottom: 20px;
+
+    
+}
+.sectiontitle{
+    padding:30px 0px 30px 20px;
+}
+
+
+// ---------slick carousel exclusive
+
+.hero{
+    background-color: #ffffff;
+
+}
+
+.exclusiv1 {
+    margin: 0px 0px 0px 0px; 
+    height: 500px;
+    
+    background-color: #ffffff;
+
+}
+
+  
+  .slick-sliders {
+    margin: 0px 66px 0px 66px;
+    background-color: #ffffff;
+    
+    
+
+  }
+  
+  .exclusivegold {
+    background-size: cover;
+    background-position:center;
+    height: 500px; 
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+ margin-right: 6px;
+ border-radius: 4px;
+
+ 
+}
+  .exclusivetitle{
+    font-size: 24px;
+    width: 100%;
+    font-weight: 400;
+  }
+//   -------------top models
+
+
+
+.toptext{
+    font-size: 33px;
+    font-weight: 500;
+    text-align: center;
+    font-family:"DMSans-SemiBold";
+    text-transform: uppercase;
+    padding-top: 35px;
+    
+}
+.stock{
+    height: 75vh;
+// background-color: rgb(255, 255, 255);
+background-color:#ffffff;
+
+
+}
+.stockslider{
+    height: 60vh;
+// background-color: #ffffff;
+// border: 1px solid #fff2e2;
+// border-radius: 10px solid black;
+padding: 20px;
+margin: 0px 60px 0px 40px;
+
+
+}
+.stockimage{
+    height: 380px;
+    background-size:contain;
+    background-position:start;
+background-repeat: no-repeat;
+// margin-right: 10px;
+border: 1px solid #fff2e2;
+width: 100%;
+
+
+}
+.mainstock{
+
+margin-right: 10px;
+padding: 5px;
+
+
+}
+.products{
+    padding:295px 0px 10px 20px;
+    width: 100%;
+}
+.stocktitle{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "DMSans-Medium";
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.availablestock{
+    color: #d43242;
+    font-size: 13px;
+
+}
+.availablestocks{
+    // margin-top: 5px;
+    color: #d43242;
+    font-size: 18px;
+    font-weight: 600;
+}
+.stockaed{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "DMSans-Bold";
+}
+
+
+// genders--------------
+
+.genders{
+    height: 80vh;
+    
+    margin: 0px 66px 0px 60px;
+}
+.genders2{
+    height: 500px;
+    background-color: #d43242;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 11px;
+    object-fit: cover;
+    border-radius: 5px;
+
+
+}
+.genders1{
+height: 500px;
+border-radius: 5px;
+
+}
+.gendertitle{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
 }

@@ -1,10 +1,11 @@
 import React from "react";
+
 import Slider from "react-slick";
 import "../styles.scss";
 
 const Banner = () => {
   var settings = {
-    dots: true,
+    dots:true,
     infinite: true,
     speed: 800,
     slidesToShow: 1,
@@ -39,13 +40,13 @@ const Banner = () => {
   ];
 
   return (
-    <Slider {...settings} >
+    <Slider {...settings}  >
       {data.map((item, index) => (
         <div key={index}>
           <div
             className="custom-banner"
             style={{
-              backgroundImage: `url(${item.image})`,
+              backgroundImage: `url(${item.image})`
             }}
           >
             <div className="custom-headings">

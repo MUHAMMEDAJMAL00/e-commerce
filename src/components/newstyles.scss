@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap');
+
+
+
 .text-center {
     text-align: center;
 }
@@ -130,6 +135,7 @@
         font-family:" NanumMyeongjo-Bold";
         font-weight: 600;
         color: #2a5e47;
+        text-wrap: nowrap;
         
     }&-cartimage{
         margin-left: 42px;
@@ -155,6 +161,8 @@
         font-weight: 500    ;
         color: #234536;
         cursor: pointer;
+        text-wrap: nowrap;
+
     }&-sell{
         display: flex;
         gap: 18px;
@@ -167,6 +175,7 @@
     }&-selltext{
 
         font-weight: 600;
+        text-align: center;
 
 
 
@@ -174,7 +183,11 @@
         display: flex;
     }&-sellhead{
         display: flex;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
+      
+        // background-color: red;
         }
 
 
@@ -185,6 +198,135 @@
 
 body {
     margin: 0px;
+    padding: 0px;
     background-color: rgb(188, 199, 208);
     overflow-x:hidden;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+@media screen and (min-width:1100px) and (max-width:1500px) {
+    .header-sell{
+        margin-left: 10px;
+        gap: 5px;
+        margin-left: 1px;
+    }
+    .header-selltext{
+        font-size: 14px;
+        width: 100%;
+        text-wrap: nowrap;
+    }
+//   .header-deskbox{
+//     display: none;
+//   }
+  .header-categories{
+    // display:none
+  }
+}
+
+.unordered{
+    list-style-type:none;
+    padding:0px 0px 0px 0px;
+    
+}
+.footer1{
+    margin-top: 48px;
+}
+.footer2{
+    // background-color: red;
+}
+.contentfooter{
+    padding: 0px 23px 0px 0px;
+}
+.textfooter{
+  list-style-type:none;
+  padding: 0px 0px 0px 54px;
+}
+
+.footerheadtext{
+    // font-family: "DMSans-SemiBold";
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #212529;
+    padding-bottom: 12px;
+}
+
+.footer{
+    height: 69vh;
+    padding: 0px 66px;
+    box-sizing: border-box;
+    
+    background-color: #d9d9d966;
+}
+
+
+.footer6{
+    // background-color: red;
+}
+.footertext{
+    font-size: 14px;
+    color: #000;
+    margin: 0px 0px 10px;
+    text-wrap: nowrap;
+
+}
+
+
+.footerpay{
+    margin-top: 48px;
+    padding: 0px 0px 0px 8px;
+}
+.payicon{
+    display: flex;
+    gap: 38px;
+}
+
+
+.footerlucky{
+    height: 70px;
+    margin:48px 0px 0px -3px;
+}
+.footer7{
+// padding:0px 0px 0px 0px;
+}
+.footersocialmedia{
+    margin: 17px 10px 0px -1px;
+    display: flex;
+    gap: 60px;
+}
+.lastfooter{
+    display: flex;
+    text-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 49px 38px 67px;
+}
+
+.lastfirst{
+    font-size: 14px;
+    font-family: "DMSans-Serif";
+    font-weight: 600;
+}
+.lastsecond{
+    font-size: 14px;
+    font-family: "DMSans-Regular";
+    font-weight: 400;
+    padding: 0px 0px 0px 0px;
+    text-align: end;
+    
+    
+}
+.line{
+    width:100vw;
+    color:gray;
+    position: absolute;
+    left: 0%;
+    right: 0px;
+    
+    
+}
+.line1{
+    margin-bottom: 48px;
 }

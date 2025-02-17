@@ -13,7 +13,8 @@ const Goldprice = () => {
     <div className="gold-head">
       <div className="gold-title">TODAY'S RETAIL GOLD JEWELLERY PRICE</div>
       <div className="gold-date">13-02-2025 - RATE IN AED PER GM</div>
-      <div className="row goldbox1">
+      <div className="row 
+      goldbox1">
         <div className=" goldbox col-lg-2 ">Gold 24 Karat - <span style={{color:"rgb(184, 130, 31)",fontSize:"20px"}}> 319.25</span></div>
         <div className=" goldbox col-lg-2 ">    Gold 22 Karat- <span style={{color:"rgb(184, 130, 31)",fontSize:"20px"}}>295.50</span>                     </div>
         <div className=" goldbox col-lg-2 "> Gold 21 Karat - <span style={{color:"rgb(184, 130, 31)",fontSize:"20px"}}>286.00</span></div>

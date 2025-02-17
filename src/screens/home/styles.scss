@@ -250,12 +250,20 @@ background-repeat: no-repeat;
 border: 1px solid #fff2e2;
 width: 100%;
 
-
+cursor: pointer;
 }
+.stockimage:hover{
+    height:380px;
+    width:310px;
+    
+}                                                                                                                   
+
 .mainstock{
 
 margin-right: 10px;
 padding: 5px;
+height: 400px;
+background-color:#fdfdfd ;
 
 
 }
@@ -291,7 +299,7 @@ padding: 5px;
 // genders--------------
 
 .genders{
-    height: 80vh;
+    height: 70vh;
     
     margin: 0px 66px 0px 60px;
 }
@@ -318,3 +326,51 @@ border-radius: 5px;
     font-weight: 800;
     color: #ffffff;
 }
+
+
+
+// =------------------logos images
+
+.logoshead{
+    height: 20vh;
+    padding: 9px 66px 0px 45px;
+margin-bottom: 10px;
+}
+.logosimagehead{
+    padding:5px 15px 0px 15px;
+    // margin-bottom: 50px;
+
+
+
+}
+.logoimg{
+    height:60px;
+    padding-top: 10px;
+    width: 100%;
+    background-size:contain;
+    background-position: center;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    border: 1px solid #ffe6c9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

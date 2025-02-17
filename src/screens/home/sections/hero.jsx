@@ -8,6 +8,8 @@ import Goldinformation from '../components/goldinformation'
 import Genders from '../components/genders'
 import TopProducts from '../components/topmodels'
 import Trending from '../components/trending'
+import Logos from '../components/logos'
+import Footer from '../../../components/footer'
 
 const Hero = () => {
   return (
@@ -20,6 +22,8 @@ const Hero = () => {
      <TopProducts/>
      <Genders/>
      <Trending/>
+     <Logos/>
+     <Footer/>
 
       
     </div>

@@ -7,10 +7,11 @@ const TopProducts = () => {
     infinite: true,
     speed: 900,
     slidesToShow: 4.5,
-    slidesToScroll: 1,
+    slidesToScroll: 4,
     arrow: false,
     autoplay: true,
   };
+  
 
   let data = [
     {
@@ -73,6 +74,7 @@ const TopProducts = () => {
     },
   ];
 
+ 
   return (
       <div className="stock">
         <div className="toptext">top products</div>

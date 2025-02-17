@@ -15,11 +15,23 @@ import { BsBag } from "react-icons/bs";
 import { HiOutlineUser } from "react-icons/hi2";
 import { MdOutlineSell } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
+import { Popover } from "antd"
 
 const Header = () => {
+
+  const text = <span>Title</span>;
+
+  
+  const content = (
+    <div>
+      <p>Content</p>
+      <p>Content</p>
+    </div>
+  );
+
   return (
     <div className="header container-fluid">
-      <div className="header-deskbox col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div className="header-deskbox col-xl-6">
         <div className="header-desklogo">
           <img src={lucky} className="header-desklogos" />
         </div>
@@ -54,7 +66,14 @@ const Header = () => {
       </div>
 
       <div className="header-categories">
-        <div className="header-categorytext">ZERO % MAKING</div>
+      <Popover placement="bottomLeft" title={text} content={content}>
+
+            <div className="header-categorytext">ZERO % MAKING</div>
+
+          </Popover>
+
+
+
         <div className="header-categorytext">GOLD JWELLARY</div>
         <div className="header-categorytext">DIAMOND JEWELLARY</div>
         <div className="header-categorytext">LSG COLLECTION</div>
@@ -66,7 +85,7 @@ const Header = () => {
           </div>
 
           <div className="header-sellhead">
-            <IoCallOutline size={20} />
+            <IoCallOutline size={20}  />
             <div className="header-selltext">+971 54 581 6161</div>
           </div>
         </div>
